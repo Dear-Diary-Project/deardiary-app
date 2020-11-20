@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "deardiary-app",
+    "name": "Dear Diary",
     "slug": "deardiary-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/PSLOGO.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -21,12 +21,13 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/deardiary.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.deardiary.app"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/deardiary.png"
     }
   }
 }
